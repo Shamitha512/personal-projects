@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Achievements | Shamitha K V</title>
+
+  <!-- GOOGLE FONT -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- FONT AWESOME -->
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <style>
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+    }
+
+    body{
+      font-family:'Inter',sans-serif;
+      background:#0f172a;
+      color:white;
+      overflow-x:hidden;
+    }
+
+    .container{
+      width:90%;
+      max-width:1200px;
+      margin:auto;
+    }
+
+    /* NAVBAR */
+
+    nav{
+      width:100%;
+      position:sticky;
+      top:0;
+      z-index:1000;
+      background:rgba(15,23,42,0.95);
+      backdrop-filter:blur(12px);
+      border-bottom:1px solid rgba(255,255,255,0.06);
+    }
+
+    .nav-container{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      padding:1.2rem 0;
+    }
+
+    .logo{
+      font-size:1.7rem;
+      font-weight:800;
+      color:white;
+    }
+
+    .logo span{
+      color:#60a5fa;
+    }
+
+    .nav-links{
+      display:flex;
+      gap:2rem;
+      list-style:none;
+    }
+
+    .nav-links a{
+      text-decoration:none;
+      color:#cbd5e1;
+      font-weight:600;
+      transition:0.3s;
+    }
+
+    .nav-links a:hover{
+      color:#60a5fa;
+    }
+
+    /* SECTION */
+
+    .section{
+      padding:6rem 0;
+      position:relative;
+    }
+
+    .section-title{
+      text-align:center;
+      font-size:3rem;
+      font-weight:800;
+      margin-bottom:4rem;
+      color:white;
+    }
+
+    /* ACHIEVEMENT CARDS */
+
+    .achievement-card{
+      background:linear-gradient(
+      145deg,
+      rgba(15,23,42,0.95),
+      rgba(30,41,59,0.95)
+      );
+
+      border:1px solid rgba(255,255,255,0.08);
+
+      padding:3rem;
+      border-radius:30px;
+
+      margin:2rem auto;
+
+      max-width:950px;
+
+      box-shadow:
+      0 10px 40px rgba(0,0,0,0.4);
+
+      transition:0.4s ease;
+    }
+
+    .achievement-card:hover{
+      transform:translateY(-10px);
+      border:1px solid rgba(96,165,250,0.4);
+
+      box-shadow:
+      0 20px 60px rgba(37,99,235,0.2);
+    }
+
+    
+    
+
+   
+
+    .achievement-title{
+      font-size:2rem;
+      font-weight:800;
+      margin-bottom:1.5rem;
+      color:white;
+    }
+
+    .achievement-text{
+      color:#94a3b8;
+      line-height:2;
+      font-size:1.05rem;
+    }
+
+    .achievement-text strong{
+      color:#60a5fa;
+    }
+
+    /* TAGS */
+
+    .achievement-tags{
+      display:flex;
+      flex-wrap:wrap;
+      gap:1rem;
+      margin-top:2rem;
+    }
+
+    .achievement-tags span{
+      background:rgba(37,99,235,0.15);
+      border:1px solid rgba(96,165,250,0.2);
+
+      color:#bfdbfe;
+
+      padding:12px 20px;
+
+      border-radius:50px;
+
+      font-size:0.9rem;
+      font-weight:600;
+
+      transition:0.3s;
+    }
+
+    .achievement-tags span:hover{
+      background:#2563eb;
+      color:white;
+      transform:translateY(-3px);
+    }
+
+    /* FOOTER */
+
+    footer{
+      text-align:center;
+      padding:2rem;
+      border-top:1px solid rgba(255,255,255,0.06);
+      color:#94a3b8;
+      margin-top:3rem;
+    }
+
+    /* RESPONSIVE */
+
+    @media(max-width:768px){
+
+      .section-title{
+        font-size:2.2rem;
+      }
+
+      .achievement-card{
+        padding:2rem;
+      }
+
+      .achievement-title{
+        font-size:1.5rem;
+      }
+
+      .nav-links{
+        gap:1rem;
+      }
+
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+
+  <nav>
+
+    <div class="container nav-container">
+
+      <div class="logo">
+        Shamitha <span>K V</span>
+      </div>
+
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+      </ul>
+
+    </div>
+
+  </nav>
+
+  <!-- ACHIEVEMENTS SECTION -->
+
+  <section class="section">
+
+    <div class="container">
+
+      <h1 class="section-title">
+        My Achievements
+      </h1>
+
+      <!-- NCC -->
+
+      <div class="achievement-card">
+
+        <div class="project-icon">
+         
+        </div>
+
+        <h2 class="achievement-title">
+          NCC Cadet & C Certificate Holder
+        </h2>
+
+        <p class="achievement-text">
+
+          Joined the National Cadet Corps (NCC) in 2023 and
+          successfully completed NCC training in March 2026.
+
+          <br><br>
+
+          Achieved the prestigious
+          <strong>‘C’ Certificate</strong>,
+          demonstrating discipline, leadership,
+          teamwork, commitment, and dedication
+          throughout the training journey.
+
+        </p>
+
+        <div class="achievement-tags">
+
+          <span>NCC</span>
+          <span>C Certificate</span>
+          <span>Leadership</span>
+          <span>Discipline</span>
+
+        </div>
+
+      </div>
+
+      <!-- SCOUTS -->
+
+      <div class="achievement-card">
+
+        <div class="project-icon">
+          
+        </div>
+
+        <h2 class="achievement-title">
+          Bharat Scouts and Guides
+        </h2>
+
+        <p class="achievement-text">
+
+          Joined the Bharat Scouts and Guides in 2015,
+          which helped me develop leadership qualities,
+          social responsibility, teamwork,
+          outdoor survival skills, and active participation
+          in community service activities.
+
+          <br><br>
+
+          Served as the
+          <strong>Guide Company Leader</strong>,
+          where I coordinated team activities,
+          guided fellow members,
+          and demonstrated responsibility and leadership.
+
+          <br><br>
+
+          Successfully completed the
+          <strong>Rajyapuraskar Award Examination</strong>,
+          one of the prestigious achievements in
+          Bharat Scouts and Guides.
+
+        </p>
+
+        <div class="achievement-tags">
+
+          <span>Rajyapuraskar</span>
+          <span>Guide Company Leader</span>
+          <span>Community Service</span>
+          <span>Teamwork</span>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+
+  <footer>
+    © 2025 Shamitha K V
+  </footer>
+
+</body>
+</html>
