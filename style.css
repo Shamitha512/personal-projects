@@ -570,3 +570,155 @@ footer{
     height:220px;
   }
 }
+/* =========================
+   LEADERSHIP SECTION
+========================= */
+
+#leadership{
+  background:#0f172a;
+}
+
+/* CARD */
+
+.achievement-card{
+
+  background:#111c34;
+
+  border:1px solid rgba(255,255,255,0.06);
+
+  border-radius:28px;
+
+  padding:3rem;
+
+  box-shadow:
+  0 10px 30px rgba(0,0,0,0.35);
+
+  transition:0.35s ease;
+}
+
+.achievement-card:hover{
+
+  transform:translateY(-8px);
+
+  box-shadow:
+  0 20px 45px rgba(59,130,246,0.18);
+
+  border-color:rgba(96,165,250,0.2);
+}
+
+/* ICON */
+
+.project-icon{
+
+  width:85px;
+  height:85px;
+
+  border-radius:22px;
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+  background:linear-gradient(
+  135deg,
+  #2563eb,
+  #60a5fa
+  );
+
+  margin-bottom:2rem;
+
+  box-shadow:
+  0 10px 25px rgba(37,99,235,0.35);
+}
+
+.project-icon i{
+  font-size:2rem;
+  color:white;
+}
+
+/* TITLE */
+
+.achievement-title{
+
+  font-size:2rem;
+
+  font-weight:800;
+
+  color:white;
+
+  margin-bottom:1.5rem;
+}
+
+/* TEXT */
+
+.achievement-text{
+
+  color:#cbd5e1;
+
+  line-height:2;
+
+  font-size:1.05rem;
+}
+
+.achievement-text strong{
+  color:#60a5fa;
+}
+
+/* TAGS */
+
+.achievement-tags{
+
+  display:flex;
+
+  flex-wrap:wrap;
+
+  gap:1rem;
+
+  margin-top:2rem;
+}
+
+.achievement-tags span{
+
+  background:rgba(59,130,246,0.12);
+
+  border:1px solid rgba(96,165,250,0.15);
+
+  color:#bfdbfe;
+
+  padding:12px 22px;
+
+  border-radius:50px;
+
+  font-size:0.9rem;
+
+  font-weight:600;
+
+  transition:0.3s ease;
+}
+
+.achievement-tags span:hover{
+
+  background:#2563eb;
+
+  color:white;
+
+  transform:translateY(-4px);
+}
+
+/* RESPONSIVE */
+
+@media(max-width:768px){
+
+  .achievement-card{
+    padding:2rem;
+  }
+
+  .achievement-title{
+    font-size:1.5rem;
+  }
+
+  .achievement-text{
+    font-size:1rem;
+  }
+
+}
